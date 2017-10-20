@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Salvador</title>
+    <link href="https://fonts.googleapis.com/css?family=Frijole|Indie+Flower|Slackey" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+        </div>
+ 
+        <nav>
+            <ul>
+                <li><a href="#"><span class="icon-house"></span>Inicio</a></li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-rocket"></span>Zona Occidental<span class="caret icon-arrow-down6"></span></a>
+                    <ul class="children">
+                        <li><a href="Ahuchapan.html">Ahuachapán <span class="icon-dot"></span></a></li>
+                        <li><a href="Sonsonate.html">Sonsonate<span class="icon-dot"></span></a></li>
+                        <li><a href="Santa Ana.html">Santa Ana<span class="icon-dot"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-rocket"></span>Zona Central<span class="caret icon-arrow-down6"></span></a>
+                    <ul class="children">
+                        <li><a href="Cabañas.html">Cabañas<span class="icon-dot"></span></a></li>
+                        <li><a href="Chalatenango.html">Chalatenango<span class="icon-dot"></span></a></li>
+                        <li><a href="Cuscatlán.html">Cuscatlán<span class="icon-dot"></span></a></li>
+                        <li><a href="La Libertad.html">La Libertad<span class="icon-dot"></span></a></li>
+                        <li><a href="La Paz.html">La Paz<span class="icon-dot"></span></a></li>
+                        <li><a href="San Salvador.html">San Salvador<span class="icon-dot"></span></a></li>
+                        <li><a href="San Vicente.html">San Vicente<span class="icon-dot"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-rocket"></span>Zona Oriental<span class="caret icon-arrow-down6"></span></a>
+                    <ul class="children">
+                        <li><a href="Morazán.html">Morazán<span class="icon-dot"></span></a></li>
+                        <li><a href="San Miguel.html">San Miguel<span class="icon-dot"></span></a></li>
+                        <li><a href="Usulután.html">Usulután<span class="icon-dot"></span></a></li>
+                        <li><a href="La Unión.html">La Unión<span class="icon-dot"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                	<a href="formulario.html"><span class="icon-rocket"></span>Formulario de Contacto<span class="caret icon-arrow-down6"></span></a>
+               </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="title"> <h4>Mapa De El Salvador</h4></div>
+   
+
+    		 <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+          margin-top: 10%;
+          margin-left: 20%;
+          height: 60%;
+          width: 50%
+        }
+        /* Optional: Makes the sample page fill the window.  https://www.youtube.com/watch?v=hSsOCbG6LQI */
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="map"></div>
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat:13.8249474, lng: -88.7205263},
+            zoom: 8
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCark6tffbX9wVrednCzir6p2hxWzN1_wY&callback=initMap"
+      async defer></script>
+
+
+
+      
+<footer>
+<div id="pie">
+    <div id="redes">
+        <a href="#"><img src="img/redes/facebook.png" width="82" height="82" alt="Facebook"></a>
+        <a href="#"><img src="img/redes/twitter.png" width="82" height="82" alt="Twitter"></a>
+        <a href="#"><img src="img/redes/youtube.png" width="82" height="82" alt="YouTube"></a>
+        <a href="#"><img src="img/redes/wordpress.png" width="82" height="82" alt="Blog AdobeXpert"></a>
+        <a href="#"><img src="img/redes/rss.png" width="82" height="82" alt="RSS"></a>
+    </div>
+    <div id="notas">
+        </br><p> Universidad Don Bosco 2017®</p>
+    </div>
+</div>
+</footer>
+
+
+</body>
+</html>

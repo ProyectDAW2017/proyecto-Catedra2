@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: none;
+    font-family: sans-serif;
+    background: #EEEEEE;
+   
+}
+h1{
+    
+    text-align: center;
+    
+}
+#nel{
+    visibility: collapse;
+}
+
+#oculto1 , #oculto2 , #oculto3{
+    position: relative;
+    width: 100%;
+    color:white;
+background: #F44336;
+    border-radius: 3px;
+    
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    0% {superior : 0px;}
+    25% {arriba: 200px;}
+    75% {arriba: 50px;}
+    100%{arriba: 100px;}
+}
+
+.btnbtn-success{
+    position: relative;
+    margin-top: 23px;
+}
+
+
+.formulario{
+    width: 98%;
+    max-width:500px; 
+margin: auto;
+    background: white;
+    border-radius: 71px;
+      height: 54%;
+    position: relative;
+   
+}
+.h2form{
+    display: block;
+    width: 100%;
+    margin: auto;
+    background: deepskyblue;
+    color:  fff;
+    padding:  15px;
+    text-align: center;
+    font-weight: 100%;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+    border-bottom: 10px solid rgb(92,184,9);
+  
+}
+.contfo{
+    position: relative;
+   right: 23%;
+    top:11%;
+    max-width:502px;
+    width: 371%;
+    background-color: rgb(0,191,255);
+    height: 24%;
+    color: white;
+    border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+    text-align: center;
+    margin: auto;
+}
+
+.contenedor-input{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap:  wrap;
+    box-shadow: 5px 1px 50px #999;
+
+    
+}
+
+input{
+    width: 100%;
+    margin: 1%;
+    padding: 4%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+   
+   
+}
+.btnenviar{
+    background: #76FF03;
+    color: white;
+    padding: 20px ;
+    margin:  5%;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 23%;
+    font-size: 140%
+}
+
+.texta{
+width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+    
+}
+
+input.error {
+    color: #3c3c3c;
+    border:  1px solid RoyalBlue; 
+    line-height: 22px;
+    border-color: #f44336;
+   
+    
+}
+textarea.error{
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+    border-color: #f44336;
+   
+}
+input.solucion  {
+  border: 1px solid MediumBlue ;
+  
+}
+textarea.solucion{
+     width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+    border-color: #f44336; 
+    border: 1px solid DarkBlue  ;
+}
+textarea.input1{
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+.btnenviar:hover{
+ background: rgba(0,0,0,0);
+ color: #76FF03;
+ box-shadow: inset 0 0 0 3px #76FF03;
+}
+.icon-user{
+   font-size: 150%;
+   color: lightslategray;
+   position: relative;
+   top: 38px;
+   right: -4%;
+   margin-right: 354px;
+    display: none;
+    
+}
+
+.icon-phone{
+   font-size: 150%;
+   color: lightslategray;
+   position: relative;
+   top: 67px;
+   right: 10%;
+    display: none;
+}
+.icon-key{
+    font-size: 150%;
+    color: lightslategray;
+    position: relative;
+    top: 67px;
+    right: 15%;
+    display: none;
+}
+.icon-envelop{
+    font-size: 150%;
+    color: lightslategray;
+    position: relative;
+    top: 67px;
+    right: 6%;
+    display: none;
+}
+.icon-earth{
+    font-size: 150%;
+    color: lightslategray;
+    position: relative;
+    top: 67px;
+    right: 29%;
+    display: none;
+}
+
+p{
+     color: lightslategray;
+}
+
+.tabla-clasificacion{
+    margin: 23px;
+}
+

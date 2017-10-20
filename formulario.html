@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0" >
+	<link rel="stylesheet"  href="css/cssform.css">
+	<link rel="stylesheet" href="ico/fonts/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="js/cargar%20tabla.js"></script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script src="js/validaciones.js"></script>
+</head>
+<body>
+
+<h1>Registro De Formulario</h1>
+<form  class="formulario" name="formulario">
+    <h2 class="h2form">Crea una Cuenta</h2>
+    <div class="contenedor-input">
+   
+    <p>Nombre:</p><input type="text" id="nombre" name="form[]" class="input" placeholder="Nombre"> 
+    <div id=oculto1></div>
+    
+    
+   <p>Email:</p>
+    <input type="text" id="correo" name="form[]"  class="input" placeholder="Email"> <div id=oculto2></div>
+    
+    <p>Pais de Procedecia:</p><input type="text" id="pais" name="form[]"  class="input" placeholder="Pais Procedencia" ><div id=oculto3></div>
+    
+    <p>Consulta:</p>
+      <textarea class="texta" id="mensaje" placeholder="Mensaje" name="form[]" class="input" ></textarea> 
+    <div>
+        <p id="nel">
+            d <br>
+            d <br>
+            d 
+            d 
+            mensaje no obstrusivo
+        </p>
+    </div>
+    <input type="button" value="Registrar" class="btn btn-success btn-lg btn-lg active" id="enviar">
+    <div id="barra"></div>
+   <footer>
+        <div class="contfo">
+           <h5> Copyright El Salvador</h5>        </div>
+</footer>
+    </div>
+   
+       <br> 
+       <br>
+       <br>
+</form>
+
+
+
+</body>
+</html>
